@@ -1,5 +1,6 @@
 ﻿{
   "dependencies": {
+    "Microcharts.Forms": "0.6.2",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "Xamarin.Forms": "2.3.4.224"
   },
