@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using DemoGraficos.Views;
 using Xamarin.Forms;
 
 namespace DemoGraficos
@@ -13,7 +13,7 @@ namespace DemoGraficos
         {
             InitializeComponent();
 
-            MainPage = new DemoGraficos.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
