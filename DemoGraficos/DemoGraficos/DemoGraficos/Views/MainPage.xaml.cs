@@ -18,5 +18,10 @@ namespace DemoGraficos.Views
         {
             await Navigation.PushAsync(new GraficoBarras());
         }
+
+        private async void Circular(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new GraficoCircular());
+        }
     }
 }

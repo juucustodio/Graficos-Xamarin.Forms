@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:DemoGraficos.Views"
              x:Class="DemoGraficos.Views.MainPage"
              Title="Tipos de Gráficos">
-    <StackLayout>
+    <StackLayout Padding="30">
         <Button Text="Barras" Clicked="Barras"/>
+        <Button Text="Circular" Clicked="Circular"/>
     </StackLayout>
     
 </ContentPage>
