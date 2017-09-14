@@ -7,6 +7,9 @@
     <StackLayout Padding="30">
         <Button Text="Barras" Clicked="Barras"/>
         <Button Text="Circular" Clicked="Circular"/>
+        <Button Text="Linha" Clicked="Linha"/>
+        <Button Text="Pontos" Clicked="Pontos"/>
+        <Button Text="Gauge" Clicked="Gauge"/>
     </StackLayout>
     
 </ContentPage>

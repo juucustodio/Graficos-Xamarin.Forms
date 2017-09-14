@@ -36,7 +36,7 @@ namespace DemoGraficos.Views
             {
                 Label = "Abril",
                 ValueLabel = "150",
-                Color = SKColor.Parse("#555")
+                Color = SKColor.Parse("#e77e23")
             }
         };
 
